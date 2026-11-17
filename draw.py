@@ -31,4 +31,4 @@ for giver, receiver in zip(PEOPLE, receivers):
             '<body style="font:2em sans-serif;text-align:center;margin-top:30vh">'
             f"🎄 Kupuješ dárek pro: {receiver} 🎄\n"
         )
-    print(f"{giver:10} -> {receiver:10} {BASE_URL}{code}.html")
+    print(f"{giver:10} {BASE_URL}{code}.html")
