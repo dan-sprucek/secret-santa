@@ -29,6 +29,6 @@ for giver, receiver in zip(PEOPLE, receivers):
             '<!doctype html><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<body style="font:2em sans-serif;text-align:center;margin-top:30vh">'
-            f"Kupuješ dárek pro: {receiver} 🎄\n"
+            f"🎄 Kupuješ dárek pro: {receiver} 🎄\n"
         )
     print(f"{giver:10} -> {receiver:10} {BASE_URL}{code}.html")
